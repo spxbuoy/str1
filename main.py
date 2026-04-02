@@ -99,7 +99,7 @@ def check(card):
 
 # --- End of User's Original Script Logic ---
 
-@app.route('/api/razorpay/pay', methods=['GET'])
+@app.route('/api/stripe1$/pay', methods=['GET'])
 def razorpay_pay():
     cc_data = request.args.get('cc')
     
