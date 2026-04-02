@@ -1,2 +1,6 @@
-requests
-beautifulsoup4
+Flask==2.3.2
+requests==2.31.0
+beautifulsoup4==4.12.2
+gunicorn==21.2.0
+colorama==0.4.6
+
